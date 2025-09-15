@@ -1,13 +1,14 @@
 {
-	"name": "bpb-panel",
-	"version": "3.5.1",
-	"homepage": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
-	"license": "GPL-3.0",
-	"private": true,
-	"type": "module",
-	"scripts": {
-		"build": "node scripts/build.js"
-	},
+  "name": "bpb-panel",
+  "version": "3.5.1",
+  "homepage": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
+  "license": "GPL-3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "deploy": "wrangler deploy"
+  },
 	"devDependencies": {
 		"@eslint/css": "^0.8.1",
 		"@eslint/js": "^9.28.0",
